@@ -1,0 +1,32 @@
+---------------
+script:    generate.sh
+arguments: gcc45 
+directory: /home/hiroshi/FreeFlyer/alvar-2.0.0-src/build
+---------------
+[2014/08/11-14:28:35] creating build directory
+[2014/08/11-14:28:35] generating build environment
+-- The C compiler identification is unknown
+-- The CXX compiler identification is unknown
+-- Check for working C compiler: /usr/bin/gcc-4.5
+CMake Error: your C compiler: "/usr/bin/gcc-4.5" was not found.   Please set CMAKE_C_COMPILER to a valid compiler path or name.
+CMake Error: Internal CMake error, TryCompile configure of cmake failed
+-- Check for working C compiler: /usr/bin/gcc-4.5 -- broken
+CMake Error at /usr/share/cmake-2.8/Modules/CMakeTestCCompiler.cmake:52 (MESSAGE):
+  The C compiler "/usr/bin/gcc-4.5" is not able to compile a simple test
+  program.
+
+  It fails with the following output:
+
+   
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:10 (project)
+
+
+CMake Error: your C compiler: "/usr/bin/gcc-4.5" was not found.   Please set CMAKE_C_COMPILER to a valid compiler path or name.
+CMake Error: your CXX compiler: "/usr/bin/g++-4.5" was not found.   Please set CMAKE_CXX_COMPILER to a valid compiler path or name.
+-- Configuring incomplete, errors occurred!
+./generate.sh: line 72: cmake-gui: command not found

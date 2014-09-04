@@ -1,0 +1,40 @@
+FILE(REMOVE_RECURSE
+  "CMakeFiles/ALVAR.dir/Alvar.cpp.o"
+  "CMakeFiles/ALVAR.dir/Bitset.cpp.o"
+  "CMakeFiles/ALVAR.dir/Camera.cpp.o"
+  "CMakeFiles/ALVAR.dir/ConnectedComponents.cpp.o"
+  "CMakeFiles/ALVAR.dir/Draw.cpp.o"
+  "CMakeFiles/ALVAR.dir/EC.cpp.o"
+  "CMakeFiles/ALVAR.dir/FernImageDetector.cpp.o"
+  "CMakeFiles/ALVAR.dir/FernPoseEstimator.cpp.o"
+  "CMakeFiles/ALVAR.dir/FileFormatUtils.cpp.o"
+  "CMakeFiles/ALVAR.dir/Filter.cpp.o"
+  "CMakeFiles/ALVAR.dir/IntegralImage.cpp.o"
+  "CMakeFiles/ALVAR.dir/Kalman.cpp.o"
+  "CMakeFiles/ALVAR.dir/Line.cpp.o"
+  "CMakeFiles/ALVAR.dir/Marker.cpp.o"
+  "CMakeFiles/ALVAR.dir/MarkerDetector.cpp.o"
+  "CMakeFiles/ALVAR.dir/MultiMarker.cpp.o"
+  "CMakeFiles/ALVAR.dir/MultiMarkerBundle.cpp.o"
+  "CMakeFiles/ALVAR.dir/MultiMarkerFiltered.cpp.o"
+  "CMakeFiles/ALVAR.dir/MultiMarkerInitializer.cpp.o"
+  "CMakeFiles/ALVAR.dir/Optimization.cpp.o"
+  "CMakeFiles/ALVAR.dir/Pose.cpp.o"
+  "CMakeFiles/ALVAR.dir/Ransac.cpp.o"
+  "CMakeFiles/ALVAR.dir/Rotation.cpp.o"
+  "CMakeFiles/ALVAR.dir/SfM.cpp.o"
+  "CMakeFiles/ALVAR.dir/TrackerFeatures.cpp.o"
+  "CMakeFiles/ALVAR.dir/TrackerOrientation.cpp.o"
+  "CMakeFiles/ALVAR.dir/TrackerPsa.cpp.o"
+  "CMakeFiles/ALVAR.dir/TrackerStat.cpp.o"
+  "CMakeFiles/ALVAR.dir/TrifocalTensor.cpp.o"
+  "CMakeFiles/ALVAR.dir/UnscentedKalman.cpp.o"
+  "CMakeFiles/ALVAR.dir/Util.cpp.o"
+  "libalvar200.pdb"
+  "libalvar200.so"
+)
+
+# Per-language clean rules from dependency scanning.
+FOREACH(lang CXX)
+  INCLUDE(CMakeFiles/ALVAR.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)

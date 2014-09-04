@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bzreinha/newalvar/alvar-2.0.0-src/sample/SampleZMQPub.cpp
+zmq.h
+-
+unistd.h
+-
+string
+-
+iostream
+-
+
