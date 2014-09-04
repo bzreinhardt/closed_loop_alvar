@@ -1,2 +1,0 @@
-/usr/bin/ar cr libSharedSamples.a  CMakeFiles/SharedSamples.dir/CvTestbed.cpp.o
-/usr/bin/ranlib libSharedSamples.a
